@@ -23,8 +23,7 @@ public class RomeConvert {
     }
 
     public String romeResult(int res) {
-        if (res < 0)
-            System.err.println("В римском исчеслении нет отрицательного значения");
+
         return romeNumOut[res];
     }
 
